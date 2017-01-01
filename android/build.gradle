@@ -1,0 +1,48 @@
+buildscript {
+
+	repositories {
+		jcenter()
+	}
+
+	dependencies {
+		classpath 'com.android.tools.build:gradle:2.2.3'
+	}
+}
+
+apply plugin: 'com.android.application'
+
+android {
+	compileSdkVersion 22
+	buildToolsVersion "25.0.2"
+
+	defaultConfig {
+		applicationId 'net.java.lohttp'
+		minSdkVersion 22
+		targetSdkVersion 22
+		vectorDrawables.useSupportLibrary = true
+	}
+
+	compileOptions {
+		sourceCompatibility JavaVersion.VERSION_1_7
+		targetCompatibility JavaVersion.VERSION_1_7
+	}
+
+	buildTypes {
+		debug {
+			debuggable true
+
+			sourceSets {
+				main {
+					manifest.srcFile 'meta/AndroidManifest.xml'
+					java.srcDirs = [ 'java', '../sources' ]
+					res.srcDirs = [ 'res' ]
+					assets.srcDirs = [ '../tests/net/java/lohttp/content' ]
+				}
+			}
+		}
+	}
+}
+
+dependencies {
+	compile 'com.android.support:appcompat-v7:22.2.1'
+}

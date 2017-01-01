@@ -1,0 +1,51 @@
+@font-face /* Latin + Cyrillic 400 */
+{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(roboto/mUdRVCMHGKUBOACHGTH1g-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
+@font-face /* Latin + Cyrillic 700 */
+{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(roboto/isZ-wbCXNKAbnjo6_TwHTrO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+@font-face /* Latin 400 Subset */
+{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(roboto/oMMgfZMQthOryQo9n22dcuvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face /* Latin 700 Subset */
+{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(roboto/d-6IYplOFocCacKzxwXSOJBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face /* Cyrillic 400 Subset */
+{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(roboto/uYECMKoHcO9x1wdmbyHIm3-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face /* Cyrillic 700 Subset */
+{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(roboto/isZ-wbCXNKAbnjo6_TwHToX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}

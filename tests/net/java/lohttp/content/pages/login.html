@@ -1,0 +1,24 @@
+<div ng-controller = "login"
+  class = "login-page well" style = "display:none"
+  ag-visible-on = "!content-hide content-login">
+
+  <h3>Please, sign into the application</h3>
+
+  <form ag-trim>
+    <div class = "form-group" ng-class = "{'has-error': errors.login}">
+      <label for = "login-page-login">Login</label>
+      <input type = "text" class = "form-control" ng-model = "login"
+       id = "login-page-login" ag-focus-on = "?content-login"
+       placeholder = "{{placeholder('login')}}">
+    </div>
+
+    <div class = "form-group" ng-class = "{'has-error': errors.pass}">
+      <label for = "login-page-password">Password</label>
+      <input type = "password" class = "form-control" ng-model = "pass"
+       id = "login-page-password" ag-focus-on = "content-login"
+       placeholder = "{{placeholder('pass')}}">
+    </div>
+
+    <button class = "btn btn-primary" ng-click = "signIn()">Sign In</button>
+  </form>
+</div>
