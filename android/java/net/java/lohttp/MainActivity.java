@@ -1,8 +1,10 @@
 package net.java.lohttp;
 
-/* Android */
+/* Java */
 
 import java.net.BindException;
+
+/* Android */
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -14,7 +16,7 @@ import android.webkit.WebViewClient;
 /**
  * Embeds browser in the window.
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
 public class MainActivity extends AppCompatActivity
 {
@@ -58,9 +60,9 @@ public class MainActivity extends AppCompatActivity
 			}
 			catch(Throwable e)
 			{
-				//Hint: on Linux here we have to increment
-				//  the port as the socket is in TIME_WAIT
-				//  state thus can't be bound again!
+				//Hint: even with socket reuse address, we
+				//  sometimes have socket in TIME_WAIT state,
+				//  thus have to increment the port.
 
 				//?: {bind exception}
 				if(EX.xrt(e) instanceof BindException)
@@ -125,7 +127,7 @@ public class MainActivity extends AppCompatActivity
 	{
 		Log.d(LOG, "starting the server on " + setup.getPort() + "...");
 
-		new LowHat().start(setup, new Callback()
+		server.start(setup, new Callback()
 		{
 			public void act(Object... args)
 			{

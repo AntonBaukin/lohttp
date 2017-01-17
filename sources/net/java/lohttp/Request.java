@@ -6,7 +6,7 @@ package net.java.lohttp;
  *
  * Request is not thread-safe!
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
 public interface Request
 {

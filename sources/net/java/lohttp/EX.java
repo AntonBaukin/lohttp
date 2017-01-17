@@ -8,8 +8,9 @@ import java.util.Collection;
 /**
  * Exception and assertions handling support.
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
+@SuppressWarnings({"unchecked", "rawtypes"})
 public class EX
 {
 	/* Assertions */
@@ -34,7 +35,6 @@ public class EX
 		return s;
 	}
 
-	@SuppressWarnings("unchecked")
 	public static void   asserte(Collection c, Object... msg)
 	{
 		if((c == null) || c.isEmpty())
@@ -143,7 +143,6 @@ public class EX
 		return e;
 	}
 
-	@SuppressWarnings("unchecked")
 	public static <E> E     search(Throwable e, Class<E> eclass)
 	{
 		while(e != null)
@@ -172,7 +171,6 @@ public class EX
 		return s.toString();
 	}
 
-	@SuppressWarnings("unchecked")
 	private static void   cat(StringBuilder s, Collection objs)
 	{
 		for(Object o : objs)

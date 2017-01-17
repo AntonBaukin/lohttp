@@ -26,7 +26,7 @@ import net.java.lohttp.Support.TakeBytes;
 /**
  * Handling of HTTP requests.
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
 public class Requests
 {

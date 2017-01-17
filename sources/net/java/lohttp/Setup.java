@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * HTTP Server configuration.
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
 public class Setup implements Cloneable
 {

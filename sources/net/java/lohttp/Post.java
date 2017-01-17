@@ -8,7 +8,7 @@ import java.io.InputStream;
 /**
  * HTTP POST or related requests.
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
 public interface Post extends Request
 {

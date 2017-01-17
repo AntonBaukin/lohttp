@@ -6,7 +6,7 @@ package net.java.lohttp;
  * The callbacks are always invoked in the critical
  * section of the server controls. They are optional.
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
 public interface Server
 {

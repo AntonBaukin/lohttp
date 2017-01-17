@@ -3,7 +3,7 @@ package net.java.lohttp;
 /**
  * General callback.
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
 public interface Callback
 {

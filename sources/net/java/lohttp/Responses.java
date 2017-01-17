@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Handling of HTTP responses.
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
 public class Responses
 {

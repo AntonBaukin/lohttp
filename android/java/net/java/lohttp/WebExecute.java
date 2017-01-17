@@ -16,7 +16,7 @@ import android.content.res.AssetManager;
  * Executes HTTP requests coming
  * to the local server.
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
 public class WebExecute implements Callback
 {
@@ -58,17 +58,17 @@ public class WebExecute implements Callback
 		else
 			p = req.getPath().substring(1);
 
-		//~: url of the resource
+		//~: asset file name
 		try(InputStream i = assets.open(p))
 		{
 			res.write(Support.input(i));
 		}
-		catch(FileNotFoundException e)
+		catch(FileNotFoundException ignore)
 		{
 			res.setStatus(404);
 			res.write(null);
 		}
-		catch(Throwable e)
+		catch(Throwable ignore)
 		{
 			res.setStatus(500);
 		}

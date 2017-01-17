@@ -15,7 +15,7 @@ import java.util.stream.IntStream;
 /**
  * Tests {@link LowHat}.
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
 public class TestLowHat
 {

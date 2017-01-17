@@ -16,7 +16,6 @@ import java.util.concurrent.atomic.AtomicReference;
 import net.java.lohttp.Requests.Scanner;
 import net.java.lohttp.Responses.Dirty;
 import net.java.lohttp.Responses.ResponseWrapper;
-import net.java.lohttp.Responses.Status;
 import net.java.lohttp.Support.Allocator;
 import net.java.lohttp.Support.Barrier;
 
@@ -24,7 +23,7 @@ import net.java.lohttp.Support.Barrier;
 /**
  * Implements tiny HTTP server.
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
 public class LowHat implements Server
 {

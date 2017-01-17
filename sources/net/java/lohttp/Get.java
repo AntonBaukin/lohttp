@@ -3,7 +3,7 @@ package net.java.lohttp;
 /**
  * HTTP GET request.
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
 public interface Get extends Request
 {

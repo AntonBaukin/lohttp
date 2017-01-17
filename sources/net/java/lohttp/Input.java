@@ -3,7 +3,7 @@ package net.java.lohttp;
 /**
  * Functional input stream.
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
 public interface Input
 {

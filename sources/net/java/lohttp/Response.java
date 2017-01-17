@@ -4,7 +4,7 @@ package net.java.lohttp;
  * Represents HTTP response capabilities.
  * Response is not thread-safe!
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
 public interface Response
 {

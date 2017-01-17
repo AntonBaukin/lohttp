@@ -11,7 +11,7 @@ import java.net.URL;
  * Test for a web application.
  * Stopped via the termination.
  *
- * @author anton.baukin@gmail.com.
+ * @author anton.baukin@gmail.com
  */
 public class TestWeb
 {
